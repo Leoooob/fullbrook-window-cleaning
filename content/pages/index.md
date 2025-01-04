@@ -241,8 +241,9 @@ sections:
       - title: 'Soffits and Fascia '
         tagline: This is the tagline
         subtitle: ''
-        text: |
-          Follow the tutorial to build your first awesome Netlify Create site.
+        text: >
+          Revitalize your home's exterior with our professional soffits and
+          fascia cleaning service, ensuring your property shines like new
         image:
           url: /images/abstract-feature2.svg
           altText: Placeholder image
