@@ -96,7 +96,7 @@ sections:
   - type: GenericSection
     title:
       text: 'Gutter cleaning '
-      color: text-dark
+      color: text-primary
       styles:
         self:
           textAlign: left
