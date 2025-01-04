@@ -331,7 +331,7 @@ sections:
           type: TextareaFormControl
         - type: TextFormControl
           name: Phone number
-          label: Name
+          label: Phone number
           hideLabel: true
           placeholder: Your name
           isRequired: true
