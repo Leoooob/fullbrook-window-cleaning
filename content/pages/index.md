@@ -88,10 +88,10 @@ sections:
           - mb-0
           - mr-0
         padding:
-          - pt-5
-          - pl-5
-          - pb-5
-          - pr-5
+          - pt-0
+          - pl-0
+          - pb-0
+          - pr-0
       subtitle:
         textAlign: center
     type: ImageGallerySection
