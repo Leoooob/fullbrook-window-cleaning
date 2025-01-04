@@ -285,7 +285,7 @@ sections:
             borderRadius: x-large
             flexDirection: col
         type: FeaturedItem
-    variant: toggle-list
+    variant: three-col-grid
     colors: bg-neutral-fg-dark
     styles:
       self:
