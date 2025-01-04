@@ -343,6 +343,7 @@ sections:
           placeholder: Your services
           width: full
           type: TextareaFormControl
+          isRequired: true
       elementId: contact-form
       styles:
         self:
