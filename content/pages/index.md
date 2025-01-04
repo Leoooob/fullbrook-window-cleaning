@@ -139,7 +139,7 @@ sections:
   - type: CarouselSection
     title:
       type: TitleBlock
-      text: Customer testimonials
+      text: Customer reviews
       color: text-dark
     subtitle: What our customers say about us
     items:
