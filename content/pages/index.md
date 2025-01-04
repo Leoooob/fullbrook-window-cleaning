@@ -83,10 +83,10 @@ sections:
       self:
         justifyContent: center
         margin:
-          - mt-5
-          - ml-5
-          - mb-5
-          - mr-5
+          - mt-0
+          - ml-0
+          - mb-0
+          - mr-0
       subtitle:
         textAlign: center
     type: ImageGallerySection
