@@ -261,10 +261,7 @@ sections:
           always on-time and without fuss. Couldn't ask for more!”
         tagline: Window Cleaning
         subtitle: 'Leon, Spencers Wood'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        text: ''
         image:
           url: /images/person-placeholder-light.png
           altText: Maria Walters
