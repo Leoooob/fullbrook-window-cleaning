@@ -238,7 +238,7 @@ sections:
             borderRadius: x-large
             flexDirection: col
         type: FeaturedItem
-      - title: 'Soffits and Facia '
+      - title: 'Soffits and Fascia '
         tagline: This is the tagline
         subtitle: This is the item subtitle
         text: |
