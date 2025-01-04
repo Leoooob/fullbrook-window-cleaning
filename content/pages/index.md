@@ -334,7 +334,7 @@ sections:
           name: address
           label: Your address
           hideLabel: true
-          placeholder: Your name
+          placeholder: Your address & post code
           isRequired: true
           width: full
         - name: message
