@@ -214,7 +214,7 @@ sections:
       type: TitleBlock
     subtitle: ''
     items:
-      - title: Feature Item One
+      - title: Window cleaning
         tagline: This is the tagline
         subtitle: This is the item subtitle
         text: |
