@@ -57,7 +57,7 @@ sections:
   - subtitle: Before and after our work
     images:
       - url: /images/WhatsApp Image 2024-12-06 at 17.53.04_1e59dfea.jpg
-        altText: Empathy logo
+        altText: Gutter cleaning before and after
         type: ImageBlock
       - url: /images/wellster-logo.svg
         altText: Wellster logo
