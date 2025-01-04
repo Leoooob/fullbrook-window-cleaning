@@ -745,7 +745,9 @@ sections:
     type: GenericSection
 seo:
   metaTitle: Fullbrook Window Cleaning services
-  metaDescription: This demo site is built with Netlify Create.
+  metaDescription: >-
+    Fullbrook window cleaning services, founded in 2018 and servicing Berkshire
+    and surrounding areas.
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout
