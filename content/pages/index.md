@@ -257,8 +257,8 @@ sections:
     subtitle: What our customers say about us
     items:
       - title: >-
-          “A designer knows he has achieved perfection not when there is nothing
-          left to add, but when there is nothing left to take away.”
+          “Gavin has been doing my windows for years now, never missed a job and
+          always on-time and without fuss. Couldn't ask for more!”
         tagline: Window Cleaning
         subtitle: 'Leon, Spencers Wood'
         text: >-
