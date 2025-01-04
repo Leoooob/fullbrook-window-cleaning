@@ -63,7 +63,7 @@ sections:
         altText: 'Gutter cleaning before and after, with mesh guard'
         type: ImageBlock
       - url: /images/WhatsApp Image 2024-12-06 at 17.53.03_d4b29e15.jpg
-        altText: Vise logo
+        altText: Fascia clean before and after
         type: ImageBlock
       - url: /images/telus-logo.svg
         altText: Telus logo
