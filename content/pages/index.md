@@ -303,7 +303,7 @@ sections:
       text: Get a quote!
       color: text-dark
       type: TitleBlock
-    subtitle: Section with a form subtitle
+    subtitle: Pick your services and get a
     text: |-
       Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
       Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
