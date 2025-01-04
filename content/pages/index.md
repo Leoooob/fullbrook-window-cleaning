@@ -360,7 +360,7 @@ seo:
   metaDescription: >-
     Fullbrook window cleaning services, founded in 2018 and servicing Berkshire
     and surrounding areas.
-  socialImage: /images/main-hero.jpg
+  socialImage: /images/fullbrook-colour-badge-svg.svg
   type: Seo
 type: PageLayout
 ---
