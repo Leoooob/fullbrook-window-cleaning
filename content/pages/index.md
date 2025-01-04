@@ -34,7 +34,7 @@ sections:
         type: Link
     media:
       url: /images/WhatsApp Image 2024-12-06 at 17.53.03_bca13bed.jpg
-      altText: Unblock your team boost your time to production preview
+      altText: Before and after shots of gutters
       elementId: ''
       type: ImageBlock
     badge:
