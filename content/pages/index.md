@@ -266,8 +266,8 @@ sections:
         tagline: This is the tagline
         subtitle: This is the item subtitle
         text: >
-          Learn from the tutorial and build your first awesome Netlify Create
-          site.
+          Keep your home safe and sound, prevent water damage and ensure proper
+          drainage
         image:
           url: /images/abstract-feature1.svg
           altText: Placeholder image
