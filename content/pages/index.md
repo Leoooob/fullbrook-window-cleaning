@@ -8,10 +8,20 @@ sections:
       color: text-dark
       type: TitleBlock
     subtitle: ''
-    text: >
-      A Netlify Create website is a git repo that you own. Every code commit is
-      instantly reflected in the visual editor and since every visual edit is a
-      git commit, git workflows and collaboration just work.
+    text: >+
+      Fullbrook Window Cleaning services was founded in 2018 to provide the
+      personalised cleaning services you deserve. We cover Berkshire and the
+      surrounding areas, offering services such as:
+
+
+      *   Window cleaning (in & out)
+
+
+      *   Soffits and Facia cleaning
+
+
+      *   Gutter clearing & cleaning
+
     actions:
       - label: Get started
         altText: ''
