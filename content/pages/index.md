@@ -238,7 +238,7 @@ sections:
             borderRadius: x-large
             flexDirection: col
         type: FeaturedItem
-      - title: 'Soffits and Fascia '
+      - title: Soffits & Fascia cleaning
         tagline: This is the tagline
         subtitle: ''
         text: >
