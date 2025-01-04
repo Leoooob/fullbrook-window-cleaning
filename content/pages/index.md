@@ -340,7 +340,7 @@ sections:
         - name: message
           label: Message
           hideLabel: true
-          placeholder: Your message
+          placeholder: Your services
           width: full
           type: TextareaFormControl
       elementId: contact-form
