@@ -332,7 +332,7 @@ sections:
           width: full
         - type: TextFormControl
           name: address
-          label: Name
+          label: Your address
           hideLabel: true
           placeholder: Your name
           isRequired: true
