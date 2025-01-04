@@ -60,7 +60,7 @@ sections:
         altText: Gutter cleaning before and after
         type: ImageBlock
       - url: /images/WhatsApp Image 2024-12-06 at 17.53.03_e34de7aa.jpg
-        altText: Wellster logo
+        altText: 'Gutter cleaning before and after, with mesh guard'
         type: ImageBlock
       - url: /images/vise-logo.svg
         altText: Vise logo
