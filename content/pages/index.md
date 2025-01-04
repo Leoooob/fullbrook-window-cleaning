@@ -336,6 +336,13 @@ sections:
           placeholder: Your message
           width: full
           type: TextareaFormControl
+        - type: TextFormControl
+          name: address
+          label: Name
+          hideLabel: true
+          placeholder: Your name
+          isRequired: true
+          width: full
       elementId: contact-form
       styles:
         self:
