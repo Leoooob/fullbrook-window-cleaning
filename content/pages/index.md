@@ -333,7 +333,7 @@ sections:
           name: Phone number
           label: Phone number
           hideLabel: true
-          placeholder: Your name
+          placeholder: Your phone number here
           isRequired: true
           width: full
       elementId: contact-form
