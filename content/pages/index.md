@@ -243,7 +243,7 @@ sections:
         subtitle: ''
         text: >
           Revitalize your home's exterior with our professional soffits and
-          fascia cleaning service, ensuring your property shines like new
+          fascia cleaning service, ensuring your property shines like new.
         image:
           url: /images/abstract-feature2.svg
           altText: Placeholder image
