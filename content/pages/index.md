@@ -362,7 +362,6 @@ seo:
     and surrounding areas.
   socialImage: /images/logo-full-colour.svg
   type: Seo
-  metaTags:
-    - type: MetaTag
+  metaTags: []
 type: PageLayout
 ---
