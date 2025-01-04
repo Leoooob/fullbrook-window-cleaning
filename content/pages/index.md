@@ -33,7 +33,7 @@ sections:
         elementId: ''
         type: Link
     media:
-      url: /images/main-hero.svg
+      url: /images/WhatsApp Image 2024-12-06 at 17.53.03_bca13bed.jpg
       altText: Unblock your team boost your time to production preview
       elementId: ''
       type: ImageBlock
