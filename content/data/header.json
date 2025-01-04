@@ -1,17 +1,4 @@
 {
-    "logo": {
-        "url": "/images/typeface.svg",
-        "altText": "Fullbrook Window Cleaning logo",
-        "styles": {
-            "self": {
-                "margin": [
-                    "mr-3"
-                ]
-            }
-        },
-        "type": "ImageBlock",
-        "elementId": "header-badge"
-    },
     "primaryLinks": [
         {
             "label": "About Us",
