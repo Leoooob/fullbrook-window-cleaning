@@ -284,8 +284,8 @@ sections:
             justifyContent: center
         type: FeaturedItem
       - title: >-
-          "Design is a plan for arranging elements in such a way as best to
-          accomplish a particular purpose."
+          “Gavin has been doing my windows for years now, never missed a job and
+          always on-time and without fuss. Couldn't ask for more!”
         tagline: Testimonial 2
         subtitle: 'John Doe, Company'
         text: >-
