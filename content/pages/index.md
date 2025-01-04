@@ -9,9 +9,11 @@ sections:
       type: TitleBlock
     subtitle: ''
     text: >+
-      Fullbrook Window Cleaning services was founded in 2018 to provide the
-      personalised cleaning services you deserve. We cover Berkshire and the
-      surrounding areas, offering services such as:
+      Fullbrook Window Cleaning Services was founded in 2018 to provide the
+      personalised cleaning services you deserve.
+
+
+      We cover Berkshire and the surrounding areas, offering services such as:
 
 
       *   Window cleaning (in & out)
