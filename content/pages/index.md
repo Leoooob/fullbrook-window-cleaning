@@ -267,7 +267,7 @@ sections:
         subtitle: This is the item subtitle
         text: >
           Keep your home safe and sound, prevent water damage and ensure proper
-          drainage
+          drainage.
         image:
           url: /images/abstract-feature1.svg
           altText: Placeholder image
