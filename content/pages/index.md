@@ -140,7 +140,7 @@ sections:
     title:
       type: TitleBlock
       text: Customer reviews
-      color: text-dark
+      color: text-primary
     subtitle: What our customers say about us
     items:
       - title: >-
