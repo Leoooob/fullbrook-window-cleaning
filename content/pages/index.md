@@ -65,9 +65,6 @@ sections:
       - url: /images/WhatsApp Image 2024-12-06 at 17.53.03_d4b29e15.jpg
         altText: Fascia clean before and after
         type: ImageBlock
-      - url: /images/contenful-logo.svg
-        altText: Contentful logo
-        type: ImageBlock
     motion: move-to-left
     colors: bg-light-fg-dark
     styles:
