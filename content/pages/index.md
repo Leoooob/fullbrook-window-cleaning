@@ -217,8 +217,9 @@ sections:
       - title: Window cleaning
         tagline: This is the tagline
         subtitle: Inside and out
-        text: |
-          Follow the tutorial to build your first Netlify Create site.
+        text: >
+          Your gold-standard window cleaning service, using a pure water system
+          for fast-drying and no water marks.
         image:
           url: /images/abstract-feature1.svg
           altText: Placeholder Image
