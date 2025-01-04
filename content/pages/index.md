@@ -25,7 +25,7 @@ sections:
     actions:
       - label: Get a quote
         altText: ''
-        url: /
+        url: /contact
         showIcon: true
         icon: arrowRight
         iconPosition: right
