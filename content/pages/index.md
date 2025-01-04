@@ -204,7 +204,7 @@ sections:
       self:
         justifyContent: center
       subtitle:
-        textAlign: center
+        textAlign: left
   - title:
       text: List of features here
       color: text-primary
