@@ -71,7 +71,7 @@
         },
         {
             "type": "Link",
-            "label": "Contact",
+            "label": "Contact Us",
             "altText": "",
             "url": "/contact",
             "showIcon": false,
