@@ -216,7 +216,7 @@ sections:
     items:
       - title: Window cleaning
         tagline: This is the tagline
-        subtitle: This is the item subtitle
+        subtitle: Inside and out
         text: |
           Follow the tutorial to build your first Netlify Create site.
         image:
