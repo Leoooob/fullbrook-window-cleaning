@@ -38,7 +38,7 @@ sections:
       elementId: ''
       type: ImageBlock
     badge:
-      label: This is a badge
+      label: Fullbrook Window Cleaning
       color: text-primary
       type: Badge
     elementId: ''
