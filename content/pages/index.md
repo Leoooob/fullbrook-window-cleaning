@@ -9,7 +9,7 @@ sections:
       type: TitleBlock
     subtitle: ''
     text: >+
-      Fullbrook Window Cleaning Services was founded in 2018 to provide the
+      Fullbrooks Window Cleaning Services was founded in 2018 to provide the
       personalised cleaning services you deserve.
 
 
