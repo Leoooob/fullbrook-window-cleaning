@@ -19,7 +19,7 @@
             "type": "Link"
         },
         {
-            "label": "Blog",
+            "label": "Services",
             "altText": "Blog",
             "url": "/blog",
             "icon": "arrowRight",
