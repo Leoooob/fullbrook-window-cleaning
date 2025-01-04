@@ -240,7 +240,7 @@ sections:
         type: FeaturedItem
       - title: 'Soffits and Fascia '
         tagline: This is the tagline
-        subtitle: This is the item subtitle
+        subtitle: ''
         text: |
           Follow the tutorial to build your first awesome Netlify Create site.
         image:
