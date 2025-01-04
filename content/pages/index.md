@@ -330,12 +330,6 @@ sections:
           placeholder: 'Your phone number '
           isRequired: true
           width: full
-        - name: message
-          label: Message
-          hideLabel: true
-          placeholder: Your message
-          width: full
-          type: TextareaFormControl
         - type: TextFormControl
           name: address
           label: Name
@@ -343,6 +337,12 @@ sections:
           placeholder: Your name
           isRequired: true
           width: full
+        - name: message
+          label: Message
+          hideLabel: true
+          placeholder: Your message
+          width: full
+          type: TextareaFormControl
       elementId: contact-form
       styles:
         self:
