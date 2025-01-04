@@ -23,7 +23,7 @@ sections:
       *   Gutter clearing & cleaning
 
     actions:
-      - label: See Tutorials
+      - label: Get a quote
         altText: ''
         url: /
         showIcon: true
