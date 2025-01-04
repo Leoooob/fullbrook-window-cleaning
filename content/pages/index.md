@@ -287,7 +287,7 @@ sections:
           “Gavin has been doing my windows for years now, never missed a job and
           always on-time and without fuss. Couldn't ask for more!”
         tagline: Testimonial 2
-        subtitle: 'John Doe, Company'
+        subtitle: 'John Doe, Area'
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
