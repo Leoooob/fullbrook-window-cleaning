@@ -59,7 +59,7 @@ sections:
       - url: /images/WhatsApp Image 2024-12-06 at 17.53.04_1e59dfea.jpg
         altText: Gutter cleaning before and after
         type: ImageBlock
-      - url: /images/wellster-logo.svg
+      - url: /images/WhatsApp Image 2024-12-06 at 17.53.03_e34de7aa.jpg
         altText: Wellster logo
         type: ImageBlock
       - url: /images/vise-logo.svg
