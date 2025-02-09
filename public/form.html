@@ -1,27 +1,7 @@
 <form name="contact-form" id="contact-form" netlify>
-    <div>
-        <input type="hidden" value="contact-form" name="form-name" />
-        <div><label for="name">Name</label><input id="name" aria-labelledby="name-label" required="" placeholder="Your name" type="text" name="name" /></div>
-        <div>
-            <label id="email-label" for="email">Email</label
-            ><input id="email" aria-labelledby="email-label" required="" placeholder="Your email" type="email" name="email" />
-        </div>
-        <div>
-            <label id="Phone number-label" for="Phone number">Phone number</label
-            ><input id="Phone number" aria-labelledby="Phone number-label" required="" placeholder="Your phone number " type="text" name="Phone number" />
-        </div>
-        <div>
-            <label id="address-label" for="address">Your address</label
-            ><input id="address" aria-labelledby="address-label" required="" placeholder="Your address &amp; post code" type="text" name="address" />
-        </div>
-        <div>
-            <label id="message-label" for="message">Message</label
-            ><textarea id="message" name="message" rows="5" aria-labelledby="message-label" required="" placeholder="Your services"></textarea>
-        </div>
-    </div>
-    <div>
-        <button type="submit">
-            <span>Submit</span>
-        </button>
-    </div>
+    <input type="hidden" value="contact-form" name="form-name" />
+    <input type="email" name="email" />
+    <input type="text" name="Phone number" />
+    <input type="text" name="address" />
+    <textarea name="message"></textarea>
 </form>
