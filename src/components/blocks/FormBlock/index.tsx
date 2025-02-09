@@ -22,7 +22,7 @@ export default function FormBlock(props) {
         event.preventDefault();
         const data = new FormData(formRef.current);
         const value = Object.fromEntries(data.entries());
-        alert(`Form data: ${JSON.stringify(value)}`);
+        // alert(`Form data: ${JSON.stringify(value)}`);
 
         const formData = encode({ 'form-name': 'contact-form', ...value });
 
