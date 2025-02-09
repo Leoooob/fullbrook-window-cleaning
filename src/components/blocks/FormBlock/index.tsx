@@ -18,6 +18,13 @@ export default function FormBlock(props) {
         // const data = new FormData(formRef.current);
         // const value = Object.fromEntries(data.entries());
         // alert(`Form data: ${JSON.stringify(value)}`);
+        fetch('/', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: new FormData(formRef.current)
+        })
+            .then(() => console.log('Success!'))
+            .catch((error) => console.log(error));
     }
 
     return (
