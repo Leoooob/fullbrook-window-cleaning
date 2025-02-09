@@ -8,6 +8,11 @@ import SubmitButtonFormControl from './SubmitButtonFormControl';
 export default function FormBlock(props) {
     const formRef = React.createRef<HTMLFormElement>();
     const { fields = [], elementId, submitButton, className, styles = {}, 'data-sb-field-path': fieldPath } = props;
+    const encode = (data) => {
+        return Object.keys(data)
+            .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+            .join('&');
+    };
 
     if (fields.length === 0) {
         return null;
@@ -24,7 +29,7 @@ export default function FormBlock(props) {
             method: 'POST',
             headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
             // body: value.toString()
-            body: JSON.stringify(value)
+            body: encode({ 'form-name': 'contact-form', ...data })
         })
             .then(() => console.log('Form successfully submitted'))
             .catch((error) => alert(error));
