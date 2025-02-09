@@ -31,7 +31,7 @@ export default function FormBlock(props) {
             headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
             body: formData
         })
-            .then(() => console.log('Form successfully submitted'))
+            .then(() => alert('Form successfully submitted'))
             .catch((error) => alert(error));
     }
 
@@ -60,7 +60,7 @@ export default function FormBlock(props) {
             data-sb-field-path={fieldPath}
             data-netlify="true"
             data-netlify-honeypot="bot-field"
-            action="/facivon.ico"
+            action="/"
         >
             <div
                 className={classNames('w-full', 'flex', 'flex-wrap', 'gap-8', mapStyles({ justifyContent: styles?.self?.justifyContent ?? 'flex-start' }))}
