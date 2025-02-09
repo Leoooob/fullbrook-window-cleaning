@@ -21,12 +21,10 @@ export default function FormBlock(props) {
     function handleSubmit(event) {
         event.preventDefault();
         const data = new FormData(formRef.current);
-        // const value = Object.fromEntries(data.entries());
-        // alert(`Form data: ${JSON.stringify(value)}`);
+        const value = Object.fromEntries(data.entries());
+        alert(`Form data: ${JSON.stringify(value)}`);
 
-        console.log(data);
-        const formData = encode({ 'form-name': 'contact-form', ...data });
-        console.log(formData);
+        const formData = encode({ 'form-name': 'contact-form', ...value });
 
         fetch('/', {
             method: 'POST',
