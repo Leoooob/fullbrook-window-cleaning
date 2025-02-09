@@ -15,16 +15,19 @@ export default function FormBlock(props) {
 
     function handleSubmit(event) {
         // event.preventDefault();
-        // const data = new FormData(formRef.current);
-        // const value = Object.fromEntries(data.entries());
+        const data = new FormData(formRef.current);
+        const value = Object.fromEntries(data.entries());
         // alert(`Form data: ${JSON.stringify(value)}`);
+
+        event.preventDefault();
         fetch('/', {
             method: 'POST',
             headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-            body: new FormData(formRef.current)
+            // body: value.toString()
+            body: JSON.stringify(value)
         })
-            .then(() => console.log('Success!'))
-            .catch((error) => console.log(error));
+            .then(() => console.log('Form successfully submitted'))
+            .catch((error) => alert(error));
     }
 
     return (
