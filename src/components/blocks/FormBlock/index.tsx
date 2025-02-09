@@ -24,10 +24,14 @@ export default function FormBlock(props) {
         // const value = Object.fromEntries(data.entries());
         // alert(`Form data: ${JSON.stringify(value)}`);
 
+        const formData = encode({ 'form-name': 'contact-form', ...data });
+        console.log(data);
+        console.log(formData);
+
         fetch('/', {
             method: 'POST',
             headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-            body: encode({ 'form-name': 'contact-form', ...data })
+            body: formData
         })
             .then(() => console.log('Form successfully submitted'))
             .catch((error) => alert(error));
