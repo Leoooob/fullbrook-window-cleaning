@@ -27,7 +27,7 @@ export default function FormBlock(props) {
         // const formData = encode({ 'form-name': 'contact-form', ...value });
         const formData = encode(value);
 
-        fetch('/', {
+        fetch('/form', {
             method: 'POST',
             headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
             body: formData
