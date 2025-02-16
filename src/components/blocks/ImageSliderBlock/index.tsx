@@ -1,7 +1,8 @@
 import * as React from 'react';
 import Image from 'next/image';
 
-export default function ImageSliderBlock() {
+export default function ImageSliderBlock(props) {
+    const { elementId, className, imageClassName, url, altText = '', styles = {} } = props;
     const [sliderPosition, setSliderPosition] = React.useState(50);
     const [isDragging, setIsDragging] = React.useState(false);
 
