@@ -22,7 +22,7 @@
             "type": "Link",
             "label": "Contact Us",
             "altText": "",
-            "url": "/contact",
+            "url": "#contact-us",
             "showIcon": false,
             "icon": "arrowRight",
             "iconPosition": "right",
@@ -32,7 +32,18 @@
     ],
     "secondaryLinks": [],
     "variant": "logo-left-primary-nav-right",
-    "colors": "bg-light-fg-dark",
+    "colors": "bg-neutral-fg-dark",
     "type": "Header",
-    "title": "Fullbrooks Window Cleaning Services"
+    "title": "",
+    "logo": {
+        "type": "ImageBlock",
+        "url": "/images/fullbrooks-wide-logo.webp",
+        "altText": "Fullbrooks Window Cleaning Services",
+        "elementId": "",
+        "styles": {
+            "self": {
+                "borderRadius": "medium"
+            }
+        }
+    }
 }

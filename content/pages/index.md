@@ -215,7 +215,7 @@ sections:
     subtitle: ''
     items:
       - title: Window cleaning
-        tagline: This is the tagline
+        tagline: ''
         subtitle: Inside and out
         text: >
           Your gold-standard window cleaning service, using a pure water system
@@ -239,8 +239,8 @@ sections:
             flexDirection: col
         type: FeaturedItem
       - title: Soffits & Fascia cleaning
-        tagline: This is the tagline
-        subtitle: ''
+        tagline: ''
+        subtitle: Including outer gutters
         text: >
           Revitalize your home's exterior with our professional soffits and
           fascia cleaning service, ensuring your property shines like new.
@@ -263,8 +263,8 @@ sections:
             flexDirection: col
         type: FeaturedItem
       - title: Gutter clearing & cleaning
-        tagline: This is the tagline
-        subtitle: This is the item subtitle
+        tagline: ''
+        subtitle: ''
         text: >
           Keep your home safe and sound, prevent water damage and ensure proper
           drainage.
@@ -287,7 +287,7 @@ sections:
             flexDirection: col
         type: FeaturedItem
     variant: three-col-grid
-    colors: bg-neutral-fg-dark
+    colors: bg-light-fg-dark
     styles:
       self:
         padding:
@@ -371,6 +371,7 @@ sections:
       type: Badge
     colors: bg-light-fg-dark
     type: GenericSection
+    elementId: contact-us
 seo:
   metaTitle: Fullbrook Window Cleaning services
   metaDescription: >-

@@ -1,8 +1,9 @@
 {
     "logo": {
-        "url": "/images/logo-badge-white.svg",
-        "altText": "Logo light",
-        "type": "ImageBlock"
+        "url": "/images/fullbrooks-badge.webp",
+        "altText": "Logo badge",
+        "type": "ImageBlock",
+        "elementId": "brand-logo"
     },
     "text": "A personalised window cleaning service for Berkshire and the surrounding areas since 2018.\n",
     "socialLinks": [
@@ -14,13 +15,13 @@
         },
         {
             "altText": "Email link",
-            "url": "/",
+            "url": "mailto:gavin@fullbrook.co.uk",
             "icon": "mail",
             "type": "Social"
         }
     ],
     "legalLinks": [],
     "copyrightText": "Designed by [Leon](https://leonhassan.co.uk/)  \n\nPowered by [Netlify](https://www.netlify.com/)\n",
-    "colors": "bg-dark-fg-light",
+    "colors": "bg-neutral-fg-dark",
     "type": "Footer"
 }
