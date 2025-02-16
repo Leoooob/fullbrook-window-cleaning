@@ -215,7 +215,7 @@ sections:
     subtitle: ''
     items:
       - title: Window cleaning
-        tagline: This is the tagline
+        tagline: ''
         subtitle: Inside and out
         text: >
           Your gold-standard window cleaning service, using a pure water system
