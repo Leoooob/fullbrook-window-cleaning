@@ -1,45 +1,46 @@
 import * as React from 'react';
 import Image from 'next/image';
 
-// import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
-
-// If you are looking for mobile support, please refer to the
-// following implementation by @daviddecorso
-// https://github.com/unhingedmagikarp/comparison-slider/tree/mobile-support
-
 export default function SliderBlock() {
     const [sliderPosition, setSliderPosition] = React.useState(50);
     const [isDragging, setIsDragging] = React.useState(false);
 
-    const handleMove = (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
-        if (!isDragging) return;
-
-        const rect = event.currentTarget.getBoundingClientRect();
-        const x = Math.max(0, Math.min(event.clientX - rect.left, rect.width));
+    const handleMove = (clientX: number, rect: DOMRect) => {
+        const x = Math.max(0, Math.min(clientX - rect.left, rect.width));
         const percent = Math.max(0, Math.min((x / rect.width) * 100, 100));
-
         setSliderPosition(percent);
     };
 
-    const handleMouseDown = () => {
-        setIsDragging(true);
+    const handleMouseMove = (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+        if (!isDragging) return;
+        const rect = event.currentTarget.getBoundingClientRect();
+        handleMove(event.clientX, rect);
     };
 
-    const handleMouseUp = () => {
-        setIsDragging(false);
+    const handleTouchMove = (event: React.TouchEvent<HTMLDivElement>) => {
+        if (!isDragging) return;
+        const rect = event.currentTarget.getBoundingClientRect();
+        if (event.touches.length > 0) {
+            const touch = event.touches[0];
+            handleMove(touch.clientX, rect);
+        }
     };
+
+    const handleInteractionStart = () => setIsDragging(true);
+    const handleInteractionEnd = () => setIsDragging(false);
 
     return (
-        <div className="w-full relative" onMouseUp={handleMouseUp}>
+        <div className="w-full relative" onMouseUp={handleInteractionEnd} onTouchEnd={handleInteractionEnd}>
             <div
                 className="relative w-full max-w-[700px] aspect-[70/45] m-auto overflow-hidden select-none"
-                onMouseMove={handleMove}
-                onMouseDown={handleMouseDown}
+                onMouseMove={handleMouseMove}
+                onTouchMove={handleTouchMove}
+                onMouseDown={handleInteractionStart}
+                onTouchStart={handleInteractionStart}
             >
                 <Image
                     alt=""
                     fill
-                    draggable={false}
                     priority
                     src="https://images.unsplash.com/photo-1523435324848-a7a613898152?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWgelHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1769&q=80"
                 />
@@ -51,7 +52,6 @@ export default function SliderBlock() {
                     <Image
                         fill
                         priority
-                        draggable={false}
                         alt=""
                         src="https://images.unsplash.com/photo-1598875791852-8bb153e713f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWgelHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2010&q=80"
                     />
