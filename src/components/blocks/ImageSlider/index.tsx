@@ -1,15 +1,15 @@
-'use client';
-
+import * as React from 'react';
 import Image from 'next/image';
-import { useState } from 'react';
+
+// import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
 
 // If you are looking for mobile support, please refer to the
 // following implementation by @daviddecorso
 // https://github.com/unhingedmagikarp/comparison-slider/tree/mobile-support
 
 export const Slider = () => {
-    const [sliderPosition, setSliderPosition] = useState(50);
-    const [isDragging, setIsDragging] = useState(false);
+    const [sliderPosition, setSliderPosition] = React.useState(50);
+    const [isDragging, setIsDragging] = React.useState(false);
 
     const handleMove = (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
         if (!isDragging) return;
