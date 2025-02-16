@@ -2,7 +2,7 @@
     "model": "ImageSliderSection",
     "presets": [
         {
-            "label": "Logos",
+            "label": "test",
             "thumbnail": "images/image-slider-testing.png",
             "data": {
                 "title": null,
