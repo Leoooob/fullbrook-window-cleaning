@@ -22,6 +22,6 @@
     ],
     "legalLinks": [],
     "copyrightText": "Designed by [Leon](https://leonhassan.co.uk/)  \n\nPowered by [Netlify](https://www.netlify.com/)\n",
-    "colors": "bg-dark-fg-light",
+    "colors": "bg-neutral-fg-dark",
     "type": "Footer"
 }
