@@ -45,5 +45,16 @@
     "variant": "logo-left-primary-nav-right",
     "colors": "bg-light-fg-dark",
     "type": "Header",
-    "title": "Fullbrooks Window Cleaning Services"
+    "title": "Fullbrooks Window Cleaning Services",
+    "logo": {
+        "type": "ImageBlock",
+        "url": "/images/hero2.svg",
+        "altText": "Image alt text placeholder",
+        "elementId": "",
+        "styles": {
+            "self": {
+                "borderRadius": "medium"
+            }
+        }
+    }
 }
