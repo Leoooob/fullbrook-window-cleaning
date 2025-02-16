@@ -15,7 +15,7 @@
         },
         {
             "altText": "Email link",
-            "url": "/",
+            "url": "mailto:gavin@fullbrook.co.uk",
             "icon": "mail",
             "type": "Social"
         }
