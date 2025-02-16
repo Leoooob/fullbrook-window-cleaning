@@ -33,7 +33,7 @@
             "type": "Link",
             "label": "Contact Us",
             "altText": "",
-            "url": "/contact",
+            "url": "#contact-us",
             "showIcon": false,
             "icon": "arrowRight",
             "iconPosition": "right",
