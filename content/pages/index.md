@@ -373,12 +373,6 @@ sections:
     type: GenericSection
     elementId: contact-us
 seo:
-  metaTitle: Fullbrook Window Cleaning services
-  metaDescription: >-
-    Fullbrook window cleaning services, founded in 2018 and servicing Berkshire
-    and surrounding areas.
-  socialImage: /images/logo-full-colour.svg
   type: Seo
-  metaTags: []
 type: PageLayout
 ---
