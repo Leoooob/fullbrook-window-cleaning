@@ -7,7 +7,7 @@ import Image from 'next/image';
 // following implementation by @daviddecorso
 // https://github.com/unhingedmagikarp/comparison-slider/tree/mobile-support
 
-export const Slider = () => {
+export default function Slider() {
     const [sliderPosition, setSliderPosition] = React.useState(50);
     const [isDragging, setIsDragging] = React.useState(false);
 
@@ -67,4 +67,4 @@ export const Slider = () => {
             </div>
         </div>
     );
-};
+}
