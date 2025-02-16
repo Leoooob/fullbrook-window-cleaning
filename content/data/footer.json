@@ -1,6 +1,6 @@
 {
     "logo": {
-        "url": "/images/fullbrooks-badge.webp",
+        "url": "/images/fullbrooks-stacked-logo.webp",
         "altText": "Logo badge",
         "type": "ImageBlock",
         "elementId": "brand-logo"
