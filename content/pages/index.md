@@ -263,7 +263,7 @@ sections:
             flexDirection: col
         type: FeaturedItem
       - title: Gutter clearing & cleaning
-        tagline: This is the tagline
+        tagline: ''
         subtitle: This is the item subtitle
         text: >
           Keep your home safe and sound, prevent water damage and ensure proper
