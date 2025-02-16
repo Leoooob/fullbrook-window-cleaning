@@ -29,6 +29,8 @@ export default function Social(props) {
             )}
             href={url}
             aria-label={altText}
+            target="_blank"
+            rel="noopener noreferrer"
             {...annotations}
         >
             {IconComponent && <IconComponent className="shrink-0 fill-current w-[1em] h-[1em]" {...(fieldPath && { 'data-sb-field-path': '.icon' })} />}
