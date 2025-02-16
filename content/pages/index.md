@@ -239,7 +239,7 @@ sections:
             flexDirection: col
         type: FeaturedItem
       - title: Soffits & Fascia cleaning
-        tagline: This is the tagline
+        tagline: ''
         subtitle: ''
         text: >
           Revitalize your home's exterior with our professional soffits and
