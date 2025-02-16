@@ -4,6 +4,79 @@ slug: /
 sections:
   - type: GenericSection
     title:
+      type: TitleBlock
+      text: Get a quote!
+      color: text-dark
+    subtitle: ''
+    text: >
+      Share your contact info, area and the services you would like to book in
+      and we will respond within 48h with a free no-obligation quote!
+    actions: []
+    media:
+      type: FormBlock
+      fields:
+        - type: TextFormControl
+          name: name
+          label: Name
+          hideLabel: true
+          placeholder: Your name
+          isRequired: true
+          width: full
+        - type: EmailFormControl
+          name: email
+          label: Email
+          hideLabel: true
+          placeholder: Your email
+          isRequired: true
+          width: full
+        - type: TextFormControl
+          name: Phone number
+          label: Phone number
+          hideLabel: true
+          placeholder: 'Your phone number '
+          isRequired: true
+          width: full
+        - type: TextFormControl
+          name: address
+          label: Your address
+          hideLabel: true
+          placeholder: Your address & post code
+          isRequired: true
+          width: full
+        - type: TextareaFormControl
+          name: message
+          label: Message
+          hideLabel: true
+          placeholder: Your services
+          isRequired: true
+          width: full
+      submitButton:
+        type: SubmitButtonFormControl
+        label: Submit
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+      elementId: contact-form
+      styles:
+        self:
+          padding:
+            - pt-6
+            - pb-6
+            - pl-6
+            - pr-6
+          borderColor: border-dark
+          borderStyle: solid
+          borderWidth: 1
+          borderRadius: large
+    badge:
+      type: Badge
+      label: Contact Us
+      color: text-primary
+    elementId: contact-us
+    colors: bg-light-fg-dark
+  - type: GenericSection
+    title:
       text: Who are we?
       color: text-dark
       type: TitleBlock
