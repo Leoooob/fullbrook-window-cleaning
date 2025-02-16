@@ -264,7 +264,7 @@ sections:
         type: FeaturedItem
       - title: Gutter clearing & cleaning
         tagline: ''
-        subtitle: This is the item subtitle
+        subtitle: ''
         text: >
           Keep your home safe and sound, prevent water damage and ensure proper
           drainage.
