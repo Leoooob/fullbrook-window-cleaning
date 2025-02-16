@@ -240,7 +240,7 @@ sections:
         type: FeaturedItem
       - title: Soffits & Fascia cleaning
         tagline: ''
-        subtitle: Includes outer gutters
+        subtitle: Including outer gutters
         text: >
           Revitalize your home's exterior with our professional soffits and
           fascia cleaning service, ensuring your property shines like new.
