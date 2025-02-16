@@ -2,7 +2,8 @@
     "logo": {
         "url": "/images/fullbrooks-badge.webp",
         "altText": "Logo light",
-        "type": "ImageBlock"
+        "type": "ImageBlock",
+        "elementId": "brand-logo"
     },
     "text": "A personalised window cleaning service for Berkshire and the surrounding areas since 2018.\n",
     "socialLinks": [
