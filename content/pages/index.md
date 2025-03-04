@@ -83,6 +83,10 @@ sections:
       subtitle:
         textAlign: center
     type: ImageGallerySection
+    title:
+      type: TitleBlock
+      text: This Is A Big Headline
+      color: text-dark
   - type: GenericSection
     title:
       text: 'Gutter cleaning '
