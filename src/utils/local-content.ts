@@ -50,7 +50,7 @@ function readContent(file: string) {
 
     // Make Sourcebit-compatible
     content.__metadata = {
-        id: file,
+        id: file.replace(/\\/g, '/'),
         modelName: content.type
     };
 
@@ -104,5 +104,6 @@ export function allContent() {
     });
 
     const siteConfig = data.find((e) => e.__metadata.modelName === Config.name);
+    resolveReferences(siteConfig, fileToContent);
     return { objects, pages, props: { site: siteConfig } };
 }
