@@ -27,23 +27,23 @@ sections:
     actions:
       - label: Get a quote
         altText: ''
-        url: /contact
+        url: '#contact-us'
         showIcon: true
         icon: arrowRight
         iconPosition: right
         style: primary
         elementId: ''
         type: Link
-    media:
-      url: /images/WhatsApp Image 2024-12-06 at 17.53.03_bca13bed.jpg
-      altText: Before and after shots of gutters
-      elementId: ''
-      type: ImageBlock
+    # media:
+    #   url: /images/WhatsApp Image 2024-12-06 at 17.53.03_bca13bed.jpg
+    #   altText: Before and after shots of gutters
+    #   elementId: ''
+    #   type: ImageBlock
     badge:
       label: Fullbrook Window Cleaning
       color: text-primary
       type: Badge
-    elementId: ''
+    elementId: 'about'
     colors: bg-light-fg-dark
     styles:
       self:
@@ -86,49 +86,49 @@ sections:
       subtitle:
         textAlign: center
     type: ImageSliderSection
-  - type: GenericSection
-    title:
-      text: 'Gutter cleaning '
-      color: text-primary
-      styles:
-        self:
-          textAlign: left
-      type: TitleBlock
-    subtitle: Video example
-    text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
-    actions: []
-    media:
-      title: Title of the video
-      url: /images/placeholder-video.mp4
-      autoplay: true
-      loop: true
-      muted: true
-      controls: true
-      aspectRatio: '16:9'
-      styles:
-        self:
-          padding:
-            - pt-2
-            - pb-2
-            - pl-2
-            - pr-2
-          borderColor: border-dark
-          borderStyle: solid
-          borderWidth: 1
-          borderRadius: large
-      type: VideoBlock
-    elementId: null
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        flexDirection: row
-        justifyContent: center
-      subtitle:
-        textAlign: left
+  # - type: GenericSection
+  #   title:
+  #     text: 'Gutter cleaning '
+  #     color: text-primary
+  #     styles:
+  #       self:
+  #         textAlign: left
+  #     type: TitleBlock
+  #   subtitle: Video example
+  #   text: |-
+  #     Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
+  #     Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
+  #     erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
+  #     vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+  #   actions: []
+  #   media:
+  #     title: Title of the video
+  #     url: /images/placeholder-video.mp4
+  #     autoplay: true
+  #     loop: true
+  #     muted: true
+  #     controls: true
+  #     aspectRatio: '16:9'
+  #     styles:
+  #       self:
+  #         padding:
+  #           - pt-2
+  #           - pb-2
+  #           - pl-2
+  #           - pr-2
+  #         borderColor: border-dark
+  #         borderStyle: solid
+  #         borderWidth: 1
+  #         borderRadius: large
+  #     type: VideoBlock
+  #   elementId: null
+  #   colors: bg-light-fg-dark
+  #   styles:
+  #     self:
+  #       flexDirection: row
+  #       justifyContent: center
+  #     subtitle:
+  #       textAlign: left
   - title: Divider
     colors: bg-light-fg-dark
     styles:
@@ -216,6 +216,7 @@ sections:
           textAlign: center
       type: TitleBlock
     subtitle: ''
+    elementId: services
     items:
       - title: Window cleaning
         tagline: ''
