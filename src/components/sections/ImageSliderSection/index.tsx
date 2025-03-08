@@ -8,7 +8,7 @@ import TitleBlock from '../../blocks/TitleBlock';
 import ImageSliderBlock from '../../blocks/ImageSliderBlock';
 
 export default function ImageSliderSection(props) {
-    const { elementId, colors, title, subtitle = [], styles = {}, enableAnnotations } = props;
+    const { elementId, colors, title, images = [], subtitle = [], styles = {}, enableAnnotations } = props;
 
     return (
         <Section elementId={elementId} className="sb-component-image-gallery-section" colors={colors} styles={styles?.self} {...getDataAttrs(props)}>
@@ -34,12 +34,7 @@ export default function ImageSliderSection(props) {
                         {subtitle}
                     </p>
                 )}
-                <ImageSliderBlock
-                // images={images}
-                // hasTopMargin={!!(title?.text || subtitle)}
-                // justifyContent={styles?.self?.justifyContent}
-                // hasAnnotations={enableAnnotations}
-                />
+                <ImageSliderBlock images={images} />
             </div>
         </Section>
     );

@@ -36,6 +36,18 @@ export const ImageSliderSection: Model = {
             group: 'settings'
         },
         {
+            type: 'list',
+            name: 'images',
+            label: 'Images',
+            required: false,
+            hidden: false,
+            localized: false,
+            items: {
+                type: 'model',
+                models: ['ImageBlock']
+            }
+        },
+        {
             type: 'enum',
             name: 'colors',
             label: 'Colors',

@@ -54,18 +54,21 @@ sections:
           - pl-16
           - pb-16
           - pr-16
-  - subtitle: Before and after our work
+  - title:
+      text: 'Gutter cleaning '
+      color: text-primary
+      styles:
+        self:
+          textAlign: center
+      type: TitleBlock
+    subtitle: Before and after
     images:
-      - url: /images/WhatsApp Image 2024-12-06 at 17.53.04_1e59dfea.jpg
-        altText: Gutter cleaning before and after
+      - url: /images/after gutter clean.jpg
+        altText: 'After gutter cleaning'
         type: ImageBlock
-      - url: /images/WhatsApp Image 2024-12-06 at 17.53.03_e34de7aa.jpg
-        altText: 'Gutter cleaning before and after, with mesh guard'
+      - url: /images/before gutter clean.jpg
+        altText: Before gutter cleaning
         type: ImageBlock
-      - url: /images/WhatsApp Image 2024-12-06 at 17.53.03_d4b29e15.jpg
-        altText: Fascia clean before and after
-        type: ImageBlock
-    motion: move-to-left
     colors: bg-light-fg-dark
     styles:
       self:
@@ -82,7 +85,7 @@ sections:
           - pr-0
       subtitle:
         textAlign: center
-    type: ImageGallerySection
+    type: ImageSliderSection
   - type: GenericSection
     title:
       text: 'Gutter cleaning '
