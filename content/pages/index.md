@@ -191,7 +191,7 @@ sections:
           Your gold-standard window cleaning service, using a pure water system
           for fast-drying and no water marks.
         image:
-          url: /images/abstract-feature1.svg
+          url: /images/window cleaning service.jpg
           altText: Placeholder Image
           styles:
             self:
