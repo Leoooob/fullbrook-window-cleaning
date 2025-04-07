@@ -35,7 +35,7 @@ sections:
         icon: arrowRight
         iconPosition: right
         style: primary
-        elementId: ''
+        elementId: quote-link
         type: Link
     media:
       url: /images/WhatsApp Image 2024-12-06 at 17.53.03_bca13bed.jpg
