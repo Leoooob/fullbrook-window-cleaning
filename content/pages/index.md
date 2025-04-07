@@ -10,19 +10,22 @@ sections:
     subtitle: ''
     text: >+
       Fullbrooks Window Cleaning Services was founded in 2018 to provide the
-      personalised cleaning services you deserve.
+      personalised cleaning services you require and deserve.
 
 
       We cover Berkshire and the surrounding areas, offering services such as:
 
 
-      *   Window cleaning (in & out)
+      *   Window cleaning
 
 
-      *   Soffits and Facia cleaning
+      *   Soffits and Fascia cleaning
 
 
       *   Gutter clearing & cleaning
+
+
+      *   Conservatory roof cleaning
 
     actions:
       - label: Get a quote
