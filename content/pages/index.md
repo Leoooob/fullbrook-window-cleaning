@@ -133,7 +133,7 @@ sections:
         type: FeaturedItem
       - title: Always a fantastic and thorough job
         tagline: ''
-        subtitle: "David and Jennifer Lewis, Spencer’s\_Wood"
+        subtitle: "David & Jennifer Lewis, Spencer’s\_Wood"
         text: >
           "Gavin has been cleaning our windows and keeping gutters clear for
           many years. Friendly and professional, would definitely recommend!"
