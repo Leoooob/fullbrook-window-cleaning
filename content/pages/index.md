@@ -213,7 +213,7 @@ sections:
           altText: Window cleaning picture
           styles:
             self:
-              borderRadius: x-large
+              borderRadius: none
           type: ImageBlock
         colors: bg-light-fg-dark
         styles:
