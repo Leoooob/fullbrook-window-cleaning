@@ -37,6 +37,15 @@ sections:
         style: primary
         elementId: quote-link
         type: Link
+      - type: Button
+        label: Get started
+        altText: ''
+        url: '#contact-us'
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        elementId: ''
     media:
       url: /images/WhatsApp Image 2024-12-06 at 17.53.03_bca13bed.jpg
       altText: Before and after shots of gutters
