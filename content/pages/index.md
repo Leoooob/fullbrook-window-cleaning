@@ -131,9 +131,7 @@ sections:
             flexDirection: row
             justifyContent: center
         type: FeaturedItem
-      - title: >-
-          “Gavin has been doing my windows for years now, never missed a job and
-          always on-time and without fuss. Couldn't ask for more!”
+      - title: Always a fantastic and thorough job
         tagline: ''
         subtitle: 'John Doe, Area'
         text: "Gavin has been cleaning our windows and keeping gutters clear for many years. Friendly and professional, would definitely recommend!\_\n"
