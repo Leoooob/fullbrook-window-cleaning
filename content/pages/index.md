@@ -39,10 +39,6 @@ sections:
       altText: Before and after shots of gutters
       elementId: ''
       type: ImageBlock
-    badge:
-      label: Fullbrook Window Cleaning
-      color: text-primary
-      type: Badge
     elementId: ''
     colors: bg-light-fg-dark
     styles:
