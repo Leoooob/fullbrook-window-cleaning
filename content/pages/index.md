@@ -38,7 +38,7 @@ sections:
         elementId: quote-link
         type: Link
       - type: Button
-        label: Get started
+        label: Get a free quote
         altText: ''
         url: '#contact-us'
         showIcon: false
