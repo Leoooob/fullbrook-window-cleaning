@@ -212,7 +212,7 @@ sections:
         text: "Soffits, facias and outer guttering cleaning\_service.\n"
         image:
           url: /images/soffits cleaning service.jpg
-          altText: Placeholder image
+          altText: Soffits and fascia cleaning picture
           styles:
             self:
               borderRadius: x-large
