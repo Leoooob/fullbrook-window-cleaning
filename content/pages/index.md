@@ -114,7 +114,7 @@ sections:
     subtitle: What our customers say about us
     items:
       - title: "“I’ve been using Gavin to clean my windows for about 8 years now for a regular clean, and I wouldn’t use anyone else. From the first visit, he was professional, courteous, and efficient. He is very thorough, leaving no streaks or smudges behind. My windows have always looked spotless! If you’re looking for a reliable and skilled window cleaner, I highly recommend Fullbrook Window Cleaning\_Services!”"
-        tagline: Window Cleaning
+        tagline: ''
         subtitle: 'Leon, Spencers Wood'
         text: ''
         image:
