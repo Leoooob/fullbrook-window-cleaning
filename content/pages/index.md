@@ -235,7 +235,7 @@ sections:
           Keep your home safe and sound, prevent water damage and ensure proper
           drainage.
         image:
-          url: /images/abstract-feature1.svg
+          url: /images/gutter cleaning service.jpg
           altText: Placeholder image
           styles:
             self:
