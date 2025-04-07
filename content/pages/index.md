@@ -245,7 +245,7 @@ sections:
               - pl-8
               - pb-8
               - pr-8
-            borderRadius: none
+            borderRadius: xx-large
             flexDirection: col
         type: FeaturedItem
       - title: Gutter clearing
