@@ -173,10 +173,7 @@ sections:
         title: Gavin is the one to call!
         tagline: ''
         subtitle: 'Kamila Tarka, Riseley'
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        text: "I've been using Gavin's window cleaning services for years now, and he's still hands down the best! He always does an amazing job, making sure every window is spotless, even the tricky spots other cleaners might miss. I have recommended him to my neighbours and they are all very happy as well. If you want someone who's consistent, trustworthy, and does a top-notch job every single time, Gavin is the\_one\_to\_call!\n"
         actions: []
         colors: bg-neutral-fg-dark
         styles:
