@@ -135,13 +135,6 @@ sections:
         tagline: ''
         subtitle: 'John Doe, Area'
         text: "Gavin has been cleaning our windows and keeping gutters clear for many years. Friendly and professional, would definitely recommend!\_\n"
-        image:
-          url: /images/person-placeholder-light.png
-          altText: John Doe
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
         actions: []
         colors: bg-neutralAlt-fg-dark
         styles:
