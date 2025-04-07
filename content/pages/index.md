@@ -55,7 +55,7 @@ sections:
           - pr-16
   - type: GenericSection
     title:
-      text: 'Gutter cleaning '
+      text: Gutter clearing
       color: text-primary
       styles:
         self:
