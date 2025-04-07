@@ -37,11 +37,6 @@ sections:
         iconPosition: right
         style: primary
         elementId: quote-link
-    media:
-      url: /images/WhatsApp Image 2024-12-06 at 17.53.03_bca13bed.jpg
-      altText: Before and after shots of gutters
-      elementId: ''
-      type: ImageBlock
     elementId: about
     colors: bg-light-fg-dark
     styles:
