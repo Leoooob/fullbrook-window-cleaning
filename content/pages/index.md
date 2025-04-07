@@ -136,7 +136,7 @@ sections:
           always on-time and without fuss. Couldn't ask for more!”
         tagline: ''
         subtitle: 'John Doe, Area'
-        text: ''
+        text: "Gavin has been cleaning our windows and keeping gutters clear for many years. Friendly and professional, would definitely recommend!\_\n"
         image:
           url: /images/person-placeholder-light.png
           altText: John Doe
