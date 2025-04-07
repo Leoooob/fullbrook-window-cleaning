@@ -5,7 +5,7 @@ sections:
   - type: GenericSection
     title:
       text: Who are we
-      color: text-dark
+      color: text-primary
       type: TitleBlock
     subtitle: ''
     text: >+
@@ -42,7 +42,7 @@ sections:
       altText: Before and after shots of gutters
       elementId: ''
       type: ImageBlock
-    elementId: ''
+    elementId: about
     colors: bg-light-fg-dark
     styles:
       self:
@@ -203,7 +203,6 @@ sections:
           textAlign: center
       type: TitleBlock
     subtitle: ''
-    elementId: services
     items:
       - title: Window cleaning
         tagline: ''
@@ -284,6 +283,7 @@ sections:
       subtitle:
         textAlign: center
     type: FeaturedItemsSection
+    elementId: services
   - title:
       text: Get a quote!
       color: text-dark
