@@ -5,7 +5,7 @@ sections:
   - type: GenericSection
     title:
       text: Who are we
-      color: text-primary
+      color: text-dark
       type: TitleBlock
     subtitle: ''
     text: >+
