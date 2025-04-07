@@ -134,7 +134,7 @@ sections:
       - title: >-
           “Gavin has been doing my windows for years now, never missed a job and
           always on-time and without fuss. Couldn't ask for more!”
-        tagline: Testimonial 2
+        tagline: ''
         subtitle: 'John Doe, Area'
         text: ''
         image:
