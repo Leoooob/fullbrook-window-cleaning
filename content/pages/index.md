@@ -172,7 +172,7 @@ sections:
       - type: FeaturedItem
         title: Gavin is the one to call!
         tagline: Feature 2
-        subtitle: Be in good company
+        subtitle: 'Kamila Tarka, Risely'
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
