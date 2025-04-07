@@ -4,46 +4,45 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: Who are we?
+      text: Who are we
       color: text-dark
       type: TitleBlock
     subtitle: ''
     text: >+
       Fullbrooks Window Cleaning Services was founded in 2018 to provide the
-      personalised cleaning services you deserve.
+      personalised cleaning services you require and deserve.
 
 
       We cover Berkshire and the surrounding areas, offering services such as:
 
 
-      *   Window cleaning (in & out)
+      *   Window cleaning
 
 
-      *   Soffits and Facia cleaning
+      *   Soffits and Fascia cleaning
 
 
       *   Gutter clearing & cleaning
 
+
+      *   Conservatory roof cleaning
+
     actions:
-      - label: Get a quote
+      - type: Button
+        label: Get a free quote
         altText: ''
         url: '#contact-us'
         showIcon: true
         icon: arrowRight
         iconPosition: right
         style: primary
-        elementId: ''
-        type: Link
-    # media:
-    #   url: /images/WhatsApp Image 2024-12-06 at 17.53.03_bca13bed.jpg
-    #   altText: Before and after shots of gutters
-    #   elementId: ''
-    #   type: ImageBlock
-    badge:
-      label: Fullbrook Window Cleaning
-      color: text-primary
-      type: Badge
-    elementId: 'about'
+        elementId: quote-link
+    media:
+      url: /images/WhatsApp Image 2024-12-06 at 17.53.03_bca13bed.jpg
+      altText: Before and after shots of gutters
+      elementId: ''
+      type: ImageBlock
+    elementId: ''
     colors: bg-light-fg-dark
     styles:
       self:
@@ -54,81 +53,49 @@ sections:
           - pl-16
           - pb-16
           - pr-16
-  - title:
+  - type: GenericSection
+    title:
       text: 'Gutter cleaning '
       color: text-primary
       styles:
         self:
-          textAlign: center
+          textAlign: left
       type: TitleBlock
-    subtitle: Before and after
-    images:
-      - url: /images/after gutter clean.jpg
-        altText: 'After gutter cleaning'
-        type: ImageBlock
-      - url: /images/before gutter clean.jpg
-        altText: Before gutter cleaning
-        type: ImageBlock
+    subtitle: Video example
+    text: |-
+      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
+      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
+      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
+      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+    actions: []
+    media:
+      title: Title of the video
+      url: /images/placeholder-video.mp4
+      autoplay: true
+      loop: true
+      muted: true
+      controls: true
+      aspectRatio: '16:9'
+      styles:
+        self:
+          padding:
+            - pt-2
+            - pb-2
+            - pl-2
+            - pr-2
+          borderColor: border-dark
+          borderStyle: solid
+          borderWidth: 1
+          borderRadius: large
+      type: VideoBlock
+    elementId: null
     colors: bg-light-fg-dark
     styles:
       self:
+        flexDirection: row
         justifyContent: center
-        margin:
-          - mt-0
-          - ml-0
-          - mb-0
-          - mr-0
-        padding:
-          - pt-0
-          - pl-0
-          - pb-0
-          - pr-0
       subtitle:
-        textAlign: center
-    type: ImageSliderSection
-  # - type: GenericSection
-  #   title:
-  #     text: 'Gutter cleaning '
-  #     color: text-primary
-  #     styles:
-  #       self:
-  #         textAlign: left
-  #     type: TitleBlock
-  #   subtitle: Video example
-  #   text: |-
-  #     Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-  #     Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-  #     erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-  #     vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
-  #   actions: []
-  #   media:
-  #     title: Title of the video
-  #     url: /images/placeholder-video.mp4
-  #     autoplay: true
-  #     loop: true
-  #     muted: true
-  #     controls: true
-  #     aspectRatio: '16:9'
-  #     styles:
-  #       self:
-  #         padding:
-  #           - pt-2
-  #           - pb-2
-  #           - pl-2
-  #           - pr-2
-  #         borderColor: border-dark
-  #         borderStyle: solid
-  #         borderWidth: 1
-  #         borderRadius: large
-  #     type: VideoBlock
-  #   elementId: null
-  #   colors: bg-light-fg-dark
-  #   styles:
-  #     self:
-  #       flexDirection: row
-  #       justifyContent: center
-  #     subtitle:
-  #       textAlign: left
+        textAlign: left
   - title: Divider
     colors: bg-light-fg-dark
     styles:
@@ -146,21 +113,12 @@ sections:
       color: text-primary
     subtitle: What our customers say about us
     items:
-      - title: >-
-          “Gavin has been doing my windows for years now, never missed a job and
-          always on-time and without fuss. Couldn't ask for more!”
-        tagline: Window Cleaning
-        subtitle: 'Leon, Spencers Wood'
-        text: ''
-        image:
-          url: /images/person-placeholder-light.png
-          altText: Maria Walters
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
+      - title: Outstanding Service! Highly Recommended!
+        tagline: ''
+        subtitle: 'Louise Barnett, Shinfield'
+        text: "\"I've been using Gavin to clean my windows for about 8 years now for a regular clean, and I wouldn't use anyone else. From the first visit, he was professional, courteous, and efficient. He is very thorough, leaving no streaks or smudges behind. My windows have always looked spotless! If you're looking for a reliable and skilled window cleaner, I highly recommend Fullbrook Window Cleaning\_Services!\"\n"
         actions: []
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-neutral-fg-dark
         styles:
           self:
             padding:
@@ -173,21 +131,14 @@ sections:
             flexDirection: row
             justifyContent: center
         type: FeaturedItem
-      - title: >-
-          “Gavin has been doing my windows for years now, never missed a job and
-          always on-time and without fuss. Couldn't ask for more!”
-        tagline: Testimonial 2
-        subtitle: 'John Doe, Area'
-        text: ''
-        image:
-          url: /images/person-placeholder-light.png
-          altText: John Doe
-          styles:
-            self:
-              borderRadius: full
-          type: ImageBlock
+      - title: Always a fantastic and thorough job
+        tagline: ''
+        subtitle: "David & Jennifer Lewis, Spencer’s\_Wood"
+        text: >
+          "Gavin has been cleaning our windows and keeping gutters clear for
+          many years. Friendly and professional, would definitely recommend!"
         actions: []
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-neutral-fg-dark
         styles:
           self:
             padding:
@@ -200,6 +151,42 @@ sections:
             flexDirection: row
             justifyContent: center
         type: FeaturedItem
+      - type: FeaturedItem
+        title: You won't be disappointed
+        tagline: ''
+        subtitle: 'Libby, Shinfield'
+        text: "I’ve been using Fullbrook window cleaning service for nearly a year. Gavin is a friendly guy, who does an amazing job, communication is excellent & a fair price. If you want gleaming windows with a friendly service use Fullbrooks, you won’t be disappointed \U0001F60A\n"
+        actions: []
+        colors: bg-neutral-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-9
+              - pb-9
+              - pl-9
+              - pr-9
+            textAlign: left
+            borderRadius: large
+            flexDirection: row
+            justifyContent: center
+      - type: FeaturedItem
+        title: Gavin is the one to call!
+        tagline: ''
+        subtitle: 'Kamila Tarka, Riseley'
+        text: "I've been using Gavin's window cleaning services for years now, and he's still hands down the best! He always does an amazing job, making sure every window is spotless, even the tricky spots other cleaners might miss. I have recommended him to my neighbours and they are all very happy as well. If you want someone who's consistent, trustworthy, and does a top-notch job every single time, Gavin is the\_one\_to\_call!\n"
+        actions: []
+        colors: bg-neutral-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-9
+              - pb-9
+              - pl-9
+              - pr-9
+            textAlign: left
+            borderRadius: large
+            flexDirection: row
+            justifyContent: center
     elementId: null
     variant: next-prev-nav
     colors: bg-light-fg-dark
@@ -220,13 +207,11 @@ sections:
     items:
       - title: Window cleaning
         tagline: ''
-        subtitle: Inside and out
-        text: >
-          Your gold-standard window cleaning service, using a pure water system
-          for fast-drying and no water marks.
+        subtitle: ''
+        text: "We use a reach-and-wash pure water-fed pole system giving you a crystal clear spotless finish\_once\_dry.\n"
         image:
-          url: /images/abstract-feature1.svg
-          altText: Placeholder Image
+          url: /images/window cleaning service.jpg
+          altText: Window cleaning picture
           styles:
             self:
               borderRadius: x-large
@@ -244,13 +229,11 @@ sections:
         type: FeaturedItem
       - title: Soffits & Fascia cleaning
         tagline: ''
-        subtitle: Including outer gutters
-        text: >
-          Revitalize your home's exterior with our professional soffits and
-          fascia cleaning service, ensuring your property shines like new.
+        subtitle: ''
+        text: "Soffits, facias and outer guttering cleaning\_service.\n"
         image:
-          url: /images/abstract-feature2.svg
-          altText: Placeholder image
+          url: /images/soffits cleaning service.jpg
+          altText: Soffits and fascia cleaning picture
           styles:
             self:
               borderRadius: x-large
@@ -266,14 +249,12 @@ sections:
             borderRadius: x-large
             flexDirection: col
         type: FeaturedItem
-      - title: Gutter clearing & cleaning
+      - title: Gutter clearing
         tagline: ''
         subtitle: ''
-        text: >
-          Keep your home safe and sound, prevent water damage and ensure proper
-          drainage.
+        text: "We use the gutter vacuum system to reach all hard-to-reach gutters to keep your home safe and sound.\n\nKeeping your gutters clear prevents water damage and ensures proper\_drainage.\n"
         image:
-          url: /images/abstract-feature1.svg
+          url: /images/gutter cleaning service.jpg
           altText: Placeholder image
           styles:
             self:
