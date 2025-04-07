@@ -34,7 +34,7 @@ sections:
         showIcon: true
         icon: arrowRight
         iconPosition: right
-        style: primary
+        style: secondary
         elementId: quote-link
         type: Link
       - type: Button
