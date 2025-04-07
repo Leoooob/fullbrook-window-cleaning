@@ -153,7 +153,7 @@ sections:
         type: FeaturedItem
       - type: FeaturedItem
         title: You won't be disappointed
-        tagline: Feature 2
+        tagline: ''
         subtitle: Be in good company
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
