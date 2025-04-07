@@ -12,7 +12,7 @@
         {
             "label": "Services",
             "altText": "",
-            "url": "/services",
+            "url": "#services",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
