@@ -42,7 +42,7 @@ sections:
       altText: Before and after shots of gutters
       elementId: ''
       type: ImageBlock
-    elementId: ''
+    elementId: about
     colors: bg-light-fg-dark
     styles:
       self:
