@@ -231,7 +231,7 @@ sections:
       - title: Gutter clearing
         tagline: ''
         subtitle: ''
-        text: "We use the gutter vacuum system to reach all hard-to-reach gutters to keep your home safe and sound\nKeeping your gutters clear prevents water damage and ensures proper\_drainage.\n"
+        text: "We use the gutter vacuum system to reach all hard-to-reach gutters to keep your home safe and sound.\n\nKeeping your gutters clear prevents water damage and ensures proper\_drainage.\n"
         image:
           url: /images/gutter cleaning service.jpg
           altText: Placeholder image
