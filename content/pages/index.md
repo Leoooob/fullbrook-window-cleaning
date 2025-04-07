@@ -154,7 +154,7 @@ sections:
       - type: FeaturedItem
         title: You won't be disappointed
         tagline: ''
-        subtitle: ''
+        subtitle: 'Libby, Shinfield'
         text: "I’ve been using Fullbrook window cleaning service for nearly a year. Gavin is a friendly guy, who does an amazing job, communication is excellent & a fair price. If you want gleaming windows with a friendly service use Fullbrooks, you won’t be disappointed \U0001F60A\n"
         actions: []
         colors: bg-neutral-fg-dark
