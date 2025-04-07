@@ -186,7 +186,7 @@ sections:
     items:
       - title: Window cleaning
         tagline: ''
-        subtitle: Inside and out
+        subtitle: ''
         text: >
           Your gold-standard window cleaning service, using a pure water system
           for fast-drying and no water marks.
