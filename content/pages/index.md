@@ -235,7 +235,7 @@ sections:
           altText: Soffits and fascia cleaning picture
           styles:
             self:
-              borderRadius: xx-large
+              borderRadius: x-large
           type: ImageBlock
         colors: bg-light-fg-dark
         styles:
