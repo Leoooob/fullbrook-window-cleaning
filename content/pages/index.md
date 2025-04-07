@@ -228,7 +228,7 @@ sections:
             borderRadius: x-large
             flexDirection: col
         type: FeaturedItem
-      - title: Gutter clearing & cleaning
+      - title: Gutter clearing
         tagline: ''
         subtitle: ''
         text: >
