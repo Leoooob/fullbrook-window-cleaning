@@ -138,7 +138,7 @@ sections:
           "Gavin has been cleaning our windows and keeping gutters clear for
           many years. Friendly and professional, would definitely recommend!"
         actions: []
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-neutral-fg-dark
         styles:
           self:
             padding:
