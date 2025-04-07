@@ -41,7 +41,7 @@ sections:
         label: Get a free quote
         altText: ''
         url: '#contact-us'
-        showIcon: false
+        showIcon: true
         icon: arrowRight
         iconPosition: right
         style: primary
