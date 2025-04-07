@@ -28,15 +28,6 @@ sections:
       *   Conservatory roof cleaning
 
     actions:
-      - label: Get a free quote
-        altText: ''
-        url: /contact
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: quote-link
-        type: Link
       - type: Button
         label: Get a free quote
         altText: ''
