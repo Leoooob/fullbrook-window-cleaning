@@ -155,10 +155,7 @@ sections:
         title: You won't be disappointed
         tagline: ''
         subtitle: ''
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        text: "I’ve been using Fullbrook window cleaning service for nearly a year. Gavin is a friendly guy, who does an amazing job, communication is excellent & a fair price. If you want gleaming windows with a friendly service use Fullbrooks, you won’t be disappointed \U0001F60A\n"
         image:
           type: ImageBlock
           url: /images/img-placeholder.svg
