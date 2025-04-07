@@ -178,7 +178,7 @@ sections:
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
           explicabo.
         actions: []
-        colors: bg-dark-fg-light
+        colors: bg-neutral-fg-dark
         styles:
           self:
             padding:
