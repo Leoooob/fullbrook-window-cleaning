@@ -190,7 +190,7 @@ sections:
         text: "We use a reach-and-wash pure water-fed pole system giving you a crystal clear spotless finish\_once\_dry.\n"
         image:
           url: /images/window cleaning service.jpg
-          altText: Placeholder Image
+          altText: Window cleaning picture
           styles:
             self:
               borderRadius: x-large
