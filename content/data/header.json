@@ -42,7 +42,7 @@
         "elementId": "",
         "styles": {
             "self": {
-                "borderRadius": "medium"
+                "borderRadius": "none"
             }
         }
     }
