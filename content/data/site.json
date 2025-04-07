@@ -5,9 +5,5 @@
     "defaultSocialImage": "/images/main-hero.jpg",
     "type": "Config",
     "header": "content/data/header.json",
-    "defaultMetaTags": [
-        {
-            "type": "MetaTag"
-        }
-    ]
+    "defaultMetaTags": []
 }
