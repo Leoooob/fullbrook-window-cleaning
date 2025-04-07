@@ -171,7 +171,7 @@ sections:
             justifyContent: center
       - type: FeaturedItem
         title: Gavin is the one to call!
-        tagline: Feature 2
+        tagline: ''
         subtitle: 'Kamila Tarka, Riseley'
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
