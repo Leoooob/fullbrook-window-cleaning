@@ -283,6 +283,7 @@ sections:
       subtitle:
         textAlign: center
     type: FeaturedItemsSection
+    elementId: services
   - title:
       text: Get a quote!
       color: text-dark
