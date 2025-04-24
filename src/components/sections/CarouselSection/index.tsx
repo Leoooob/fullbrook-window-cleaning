@@ -127,7 +127,7 @@ function CarouselMultipleWithNavigation({ items = [], hasTopMargin, hasSectionTi
     const itemsPerView = Math.floor(itemsTotal / 2);
 
     return (
-        <div className={classNames('w-full', 'relative', { 'mt-12': hasTopMargin })} {...(hasAnnotations && { 'data-sb-field-path': '.items' })}>
+        <div className={classNames('w-full', 'relative', 'min-h-full', { 'mt-12': hasTopMargin })} {...(hasAnnotations && { 'data-sb-field-path': '.items' })}>
             <Swiper
                 spaceBetween={40}
                 slidesPerView={1}
