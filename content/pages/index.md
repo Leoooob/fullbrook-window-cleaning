@@ -48,6 +48,14 @@ sections:
           - pl-16
           - pb-16
           - pr-16
+    media:
+      type: ImageBlock
+      url: /images/hero2.svg
+      altText: Gavin on a job
+      elementId: ''
+      styles:
+        self:
+          borderRadius: medium
   - type: GenericSection
     title:
       text: Gutter clearing
