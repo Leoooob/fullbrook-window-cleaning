@@ -13,9 +13,9 @@ postFeed:
   type: PagedPostsSection
   title: null
   subtitle: null
-  showThumbnail: true
+  showThumbnail: false
   showExcerpt: false
-  showDate: true
+  showDate: false
   showAuthor: true
   actions: []
   elementId: null
