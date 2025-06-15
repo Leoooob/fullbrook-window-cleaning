@@ -108,7 +108,7 @@ function HeaderLogoLeftPrimaryRight(props) {
     return (
         <div className="flex items-center relative">
             {(title || logo?.url) && (
-                <div className="mr-10 max-lg:wide-logo">
+                <div className="mr-10 wide-logo">
                     <SiteLogoLink title={title} logo={logo} enableAnnotations={enableAnnotations} />
                 </div>
             )}
