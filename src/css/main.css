@@ -343,3 +343,8 @@
         }
     }
 }
+
+/* fix for initial render with 0 height in React Swiper */
+.swiper-wrapper {
+    height: 100% !important;
+}
