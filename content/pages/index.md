@@ -61,21 +61,17 @@ sections:
         self:
           textAlign: left
       type: TitleBlock
-    subtitle: Video example
     text: |-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      vitae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+      Our gutter clearing services utilise a specialised vacuum system to provide an efficient and effective solution for maintaining the health of your home’s drainage system. By keeping gutters clear, these services help prevent water damage, mould growth, and other costly repairs, ultimately protecting your property’s integrity. Regular cleaning with this technology not only maintains the exterior of your home but also promotes the longevity of your roofing and siding.
     actions: []
     media:
-      title: Title of the video
-      url: /images/placeholder-video.mp4
-      autoplay: true
+      title: Gutter clearing
+      url: /images/gutter-cleaning.mp4
+      autoplay: false
       loop: true
       muted: true
       controls: true
-      aspectRatio: '16:9'
+      aspectRatio: '4:3'
       styles:
         self:
           padding:
