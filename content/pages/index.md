@@ -59,11 +59,11 @@ sections:
           textAlign: left
       type: TitleBlock
     text: |-
-      Our gutter clearing services utilise a specialised vacuum system to provide an efficient and effective solution for maintaining the health of your home’s drainage system. By keeping gutters clear, these services help prevent water damage, mould growth, and other costly repairs, ultimately protecting your property. Cleaning with our Gutter vacuum system not only maintains the exterior of your home but also promotes the longevity of your guttering.
+      Our gutter clearing services utilise a specialised vacuum system to provide an efficient and effective solution for maintaining the health of your home’s guttering. By keeping gutters clear, these services help prevent water damage, mould growth, and other costly repairs, ultimately protecting your property. Cleaning with our Gutter vacuum system not only maintains the exterior of your home but also promotes the longevity of your guttering.
     actions: []
     media:
       title: Gutter clearing
-      url: /images/Guttering-short-clip.mp4#t=0.001
+      url: /images/Guttering-long-clip.mp4#t=0.001
       autoplay: false
       loop: true
       muted: true
