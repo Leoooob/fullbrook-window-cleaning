@@ -201,7 +201,6 @@ function MobileMenu(props) {
     useEffect(() => {
         const handleRouteChange = () => {
             setIsMenuOpen(false);
-            document.body.style.overflow = 'unset';
         };
         router.events.on('routeChangeStart', handleRouteChange);
 
@@ -209,6 +208,26 @@ function MobileMenu(props) {
             router.events.off('routeChangeStart', handleRouteChange);
         };
     }, [router.events]);
+
+    useEffect(() => {
+        const handleHashChange = () => {
+            setIsMenuOpen(false);
+        };
+
+        window.addEventListener('hashchange', handleHashChange);
+
+        return () => {
+            window.removeEventListener('hashchange', handleHashChange);
+        };
+    }, []);
+
+    useEffect(() => {
+        if (isMenuOpen) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'unset';
+        }
+    }, [isMenuOpen]);
 
     return (
         <div className="ml-auto lg:hidden">
