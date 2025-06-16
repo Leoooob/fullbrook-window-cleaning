@@ -63,7 +63,7 @@ sections:
     actions: []
     media:
       title: Gutter clearing
-      url: /images/gutter-cleaning.mp4
+      url: /images/gutter-cleaning.mp4#t=0.001
       autoplay: false
       loop: true
       muted: true
