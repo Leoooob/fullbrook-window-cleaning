@@ -32,9 +32,9 @@ export default function Footer(props) {
             {...(enableAnnotations && { 'data-sb-object-id': props?.__metadata?.id })}
         >
             <div className="mx-auto max-w-7xl">
-                <div className="grid sm:grid-cols-3 lg:grid-cols-4 gap-8">
+                <div className="grid gap-8 place-items-center">
                     {(logo?.url || title || text) && (
-                        <div className="pb-8 sm:col-span-3 lg:col-auto">
+                        <div className="pb-8 flex flex-col items-center">
                             {(logo?.url || title) && (
                                 <Link href="/" className="flex flex-col items-start">
                                     {logo && (
@@ -50,7 +50,7 @@ export default function Footer(props) {
                             {text && (
                                 <Markdown
                                     options={{ forceBlock: true, forceWrapper: true }}
-                                    className={classNames('sb-markdown', 'text-sm', { 'mt-4': title || logo?.url })}
+                                    className={classNames('sb-markdown', 'text-sm', 'text-center', { 'mt-4': title || logo?.url })}
                                     {...(enableAnnotations && { 'data-sb-field-path': 'text' })}
                                 >
                                     {text}
