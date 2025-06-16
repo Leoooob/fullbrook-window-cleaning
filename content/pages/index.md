@@ -10,7 +10,7 @@ sections:
     subtitle: ''
     text: >+
       Fullbrooks Window Cleaning Services was founded in 2018 to provide the
-      personalised cleaning services you require and deserve.
+      personalised cleaning services you require.
 
 
       We cover Berkshire and the surrounding areas, offering services such as:
@@ -23,9 +23,6 @@ sections:
 
 
       *   Gutter clearing & cleaning
-
-
-      *   Conservatory roof cleaning
 
     actions:
       - type: Button
@@ -62,7 +59,7 @@ sections:
           textAlign: left
       type: TitleBlock
     text: |-
-      Our gutter clearing services utilise a specialised vacuum system to provide an efficient and effective solution for maintaining the health of your home’s drainage system. By keeping gutters clear, these services help prevent water damage, mould growth, and other costly repairs, ultimately protecting your property’s integrity. Regular cleaning with this technology not only maintains the exterior of your home but also promotes the longevity of your roofing and siding.
+      Our gutter clearing services utilise a specialised vacuum system to provide an efficient and effective solution for maintaining the health of your home’s drainage system. By keeping gutters clear, these services help prevent water damage, mould growth, and other costly repairs, ultimately protecting your property. Cleaning with our Gutter vacuum system not only maintains the exterior of your home but also promotes the longevity of your guttering.
     actions: []
     media:
       title: Gutter clearing
@@ -321,7 +318,7 @@ sections:
         - name: message
           label: Message
           hideLabel: true
-          placeholder: Your services
+          placeholder: Services you require
           width: full
           type: TextareaFormControl
           isRequired: true
