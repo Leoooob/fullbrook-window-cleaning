@@ -3,7 +3,10 @@ import Head from 'next/head';
 import classNames from 'classnames';
 import Header from '../../sections/Header';
 import Footer from '../../sections/Footer';
+import { GoogleAnalytics } from '@next/third-parties/google';
 import { seoGenerateTitle, seoGenerateMetaTags, seoGenerateMetaDescription } from '../../../utils/seo-utils';
+
+const GA_ID = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS;
 
 export default function DefaultBaseLayout(props) {
     const { page, site } = props;
@@ -27,6 +30,7 @@ export default function DefaultBaseLayout(props) {
                     })}
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
                     {site.favicon && <link rel="icon" href={site.favicon} />}
+                    {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
                 </Head>
                 {site.header && <Header {...site.header} enableAnnotations={enableAnnotations} />}
                 {props.children}
